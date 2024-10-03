@@ -1,4 +1,4 @@
-"use strict";
+use strict";
 
 const utils = require("./utils");
 const cheerio = require("cheerio");
@@ -7,7 +7,7 @@ const log = require("npmlog");
 let checkVerified = null;
 
 const defaultLogRecordSize = 100;
-log.maxRecordSize = defaultLogRecordSize;
+log+maxRecordSize = defaultLogRecordSize;
 
 function setOptions(globalOptions, options) {
 	Object.keys(options).map(function (key) {
